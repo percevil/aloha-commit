@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
-    box-sizing: inherit;
+   box-sizing: inherit; 
   }
 
 /* Typography */
@@ -152,71 +152,92 @@ html {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;  
-  height:600px;
+ 
   }
 
-.featured a{
+.featured a{ 
   text-decoration: none;
- 
+
 }
 
  
     
-.product1 {
+.product { 
+
+   /* mens */
     background-image: url(../images/mens-category.jpg);
-    height: 300px;
-    /* width: 380px; */
     display: flex;
-    padding: 0px 0px 350px 350px; 
     background-size: contain;
     background-repeat: no-repeat;
 
     
-    /* justify-content: flex-end;
-    align-items:center; */
+    
   }
 .mens{
-  
-  height: 300px;
-  
+  height: 190px; 
+  width: 380px; 
   display:flex;
+  align-items: center;
+  justify-content: center;
 }
   
-   
 .product2 {
+
+    /* trends */
     background-image: url(../images/trends-category.jpg);
-    height: 380px;
-    display: flex;
-    padding: 0px 0px 350px 350px; 
-    margin: 0px 00px 0px 00px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 190px; 
+    width: 180px; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
        
      }
 .product3 {
+
+    /* glasses */
     background-image: url(../images/glasses-category.jpg);
-    height: 380px;
-    padding: 0px 0px 350px 350px;
-    display: flex; 
-    margin: 0px 00px 0px 00px;
-    background-size: contain;
-    background-repeat: no-repeat;
-      
-      /* height:298px;
-      width: 298px; */
-     }
-  .featured .sale{
-      /* height: 296px;
-      width:  296px; */
-     }
-  .featured .bags{
-      /* height: 292px;
-      width:  292px; */
-     }
-  .featured .womens{
-      /* height: 298px;
-      width: 596px; */
+    height: 190px; 
+    width: 380px; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
     }
+
+.product4{
+
+      /* sale */
+      background-image: url(../images/sale-category.jpg);
+      height: 190px; 
+      width: 380px; 
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      
+      }
+
+.product5{
+
+      /* bags */
+      background-image: url(../images/bags-category.jpg);
+      height: 190px; 
+      width: 380px; 
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      
+      } 
+      
+.product6 {
+
+      /* womens */
+      background-image: url(../images/womens-category.jpg);
+      height: 190px; 
+      width: 380px; 
+      display:flex;
+      align-items: center;
+      justify-content: center;  
+        }
 
 
 
