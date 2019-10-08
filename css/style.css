@@ -149,35 +149,55 @@ html {
 /* featured */
 
 .featured{ 
+  text-decoration: none;
   display: flex;
   flex-wrap: wrap;  
   height:600px;
-  
-  /* padding-top: 150px;  */
+  }
+
+.featured a{
+  text-decoration: none;
  
- }
+}
 
  
     
-.mens {
+.product1 {
     background-image: url(../images/mens-category.jpg);
+    height: 300px;
+    /* width: 380px; */
+    display: flex;
     padding: 0px 0px 350px 350px; 
     background-size: contain;
     background-repeat: no-repeat;
-     /* height: 300px; 
-     width: 400px;  */}
+
+    
+    /* justify-content: flex-end;
+    align-items:center; */
+  }
+.mens{
   
-.trends {
+  height: 300px;
+  
+  display:flex;
+}
+  
+   
+.product2 {
     background-image: url(../images/trends-category.jpg);
-    padding: 0px 250px 0px 250px; 
+    height: 380px;
+    display: flex;
+    padding: 0px 0px 350px 350px; 
     margin: 0px 00px 0px 00px;
     background-size: contain;
     background-repeat: no-repeat;
        
      }
-  .glasses{
+.product3 {
     background-image: url(../images/glasses-category.jpg);
-    padding: 0px 0px 250px 250px; 
+    height: 380px;
+    padding: 0px 0px 350px 350px;
+    display: flex; 
     margin: 0px 00px 0px 00px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -222,16 +242,15 @@ html {
 /* sign up */
 
 .sufu{
+  
   background-image: url(../images/wave-bkgd.jpg);
   height: 300px;
   display: flex;
   
-
   background-repeat: no-repeat;
-
-  background-size: contain;
-  padding: 64px 0px 64px 0px; 
-  margin: 64px 0px 64px 0px ;
+  background-size: center;
+  /* padding: 64px 0px 64px 0px; 
+  margin: 64px 0px 64px 0px ; */
 
 
 
