@@ -1,0 +1,271 @@
+/* Extra Resets */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Typography */
+
+
+
+
+/* structure sizing */
+
+.container-large {
+    max-width: 1240px;
+    margin: 0px 0px 0px 72px; /* to center the element */
+    background-color:white;
+    background-position-x: center;
+    } 
+    
+.container-small{
+  max-width: 740px ;
+  height:263px;
+  padding: 64px 0px 64px 0px;
+  /* background-color: grey;remove later */
+  margin: 0 auto;
+  text-align: center; 
+}
+
+/* header */
+
+.main-header{
+  height: 97px; 
+  display: flex;
+  align-items: center;
+  padding: 16px 35px 8px 28px;
+  
+}
+.logo{
+  width:160px ;
+  height: 62px;
+  display: flex;
+}
+ 
+ .cart{
+  display: flex;
+  height: 62px;
+  width: 62px;
+  margin: 0px 0px 0px 0px; 
+
+} 
+
+.links{
+  font-size: 16px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.links a{
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+  color: #e2574c;
+  text-decoration: none;
+}
+
+
+
+
+
+/* banner  */
+
+.banner{
+
+    background-image: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-repeat: no-repeat,repeat-x;
+    background-position: top center ;
+    background-size: 240px 615px, 60%;
+    height: 500px;
+    color: white; 
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    
+    font-family: 'Raleway';
+    font-size: 65px;
+    }
+
+  .overlay{
+    height: 500px;
+    background:rgba(0,0,0,0.2);  
+    
+   
+ }
+    
+
+.banner h4{
+     height: 200px; 
+     padding: 0px 0px 0px 0px;
+      font-size: 25px; 
+      display: flex;
+      justify-content: center ;
+      align-items: flex-end;
+}
+      
+.banner h1{
+      height: 200px;
+      padding: 0px 0px 00px 0px;
+      font-family:'Playfair Display';
+      display: flex;
+      justify-content: center;
+      align-items: top;
+
+    }
+
+
+.container-large nav {
+  font-family: 'Raleway';
+}
+   
+
+/* hand-crafted */
+
+.container-small h1{
+  font-family: 'Playfair Display';
+  font-size: 40px; 
+   
+}
+
+.hand-crafted{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.container-small p{
+  font-size: 16px;
+  font-family:'Raleway';
+  font-weight: 100;
+}
+
+
+
+/* featured */
+
+.featured{ 
+  display: flex;
+  flex-wrap: wrap;  
+  height:600px;
+  
+  /* padding-top: 150px;  */
+ 
+ }
+
+ 
+    
+.mens {
+    background-image: url(../images/mens-category.jpg);
+    padding: 0px 0px 350px 350px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+     /* height: 300px; 
+     width: 400px;  */}
+  
+.trends {
+    background-image: url(../images/trends-category.jpg);
+    padding: 0px 250px 0px 250px; 
+    margin: 0px 00px 0px 00px;
+    background-size: contain;
+    background-repeat: no-repeat;
+       
+     }
+  .glasses{
+    background-image: url(../images/glasses-category.jpg);
+    padding: 0px 0px 250px 250px; 
+    margin: 0px 00px 0px 00px;
+    background-size: contain;
+    background-repeat: no-repeat;
+      
+      /* height:298px;
+      width: 298px; */
+     }
+  .featured .sale{
+      /* height: 296px;
+      width:  296px; */
+     }
+  .featured .bags{
+      /* height: 292px;
+      width:  292px; */
+     }
+  .featured .womens{
+      /* height: 298px;
+      width: 596px; */
+    }
+
+
+
+/* most loved products */
+
+
+.mlp-container{
+  padding: 64px 0px 64px 0px;
+  height: 600px;
+  width: 970px;
+}
+
+ .most-loved {
+   display: flex;
+   flex-wrap: nowrap;
+   padding: 0px 64px 64px px;
+   height: 320px;
+   width: 320px;
+   background-color:white;
+
+}  
+
+/* sign up */
+
+.sufu{
+  background-image: url(../images/wave-bkgd.jpg);
+  height: 300px;
+  display: flex;
+  
+
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  padding: 64px 0px 64px 0px; 
+  margin: 64px 0px 64px 0px ;
+
+
+
+}
+
+/* footer */
+
+.footer{
+
+  padding: 64px auto;
+  margin: 0 auto;
+  height: 280px;
+  background-color:black;
+  display: flex;
+  align-items:top;
+  height:300px;
+  color:white;
+}
+
+/* .social:hover{
+  color:orange; */
+
+ 
+.social a{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+
+
+  /* break points */
+
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 600px) {
+  }
