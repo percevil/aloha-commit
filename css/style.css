@@ -68,7 +68,10 @@ html {
   text-decoration: none;
 }
 
-
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
 
 
 
@@ -271,10 +274,12 @@ html {
 .sufu{
   
   background-image: url(../images/wave-bkgd.jpg);
-  height: 300px;
+  min-height: 300px;
   display: flex;
+  background-size: cover;
+  background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: center;
+ 
 
 }
 
@@ -282,39 +287,53 @@ html {
 
 .footer{
 
-  padding: 64px auto;
+  
+  padding: 0px 0px 0px 0px;
   margin: 0 auto;
-  height: 280px;
   background-color:rgb(39, 37, 37);
-  display: flex;
-  align-items:top;
-  height:300px;
+ 
   color:white;
 }
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
 .footer p{
-  font-size: 18px;
+
+
+  /* width: 600px;  */
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
   color:white;
   font-family: 'Playfair';
   text-decoration: none;
   display: flex;
-  justify-content: flex-start ;
-  align-items: center;
+ 
 }
 
-/* .social:hover{
-  color:orange; */
+.social{
+  /* min-height: 200px; */
+  /* width: 600px; */
+  /* margin: 0px 0px 0px 600px; */
+  display: flex; 
+  align-items: flex-end;
+  justify-content: flex-end ;
+  flex-direction: column;
+  text-decoration: none;
+}
+.social a:hover{
+  color:orange; 
+}
 
- 
 .social a{
+  margin: 0px 0px 0px 0px;
   height: 38px;
-  width: 650px;
-  font-size: 18px;
+  width: 150px;
+  font-size: 16px;
   color:white;
   font-family: 'Raleway';
-  display: flex; 
-  text-decoration: none;
-  justify-content: flex-end ; 
-  
   
   }
 
