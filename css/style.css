@@ -3,6 +3,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
+   
   }
   *, *:before, *:after {
    box-sizing: inherit; 
@@ -289,19 +290,49 @@ html {
 
 }  
 
-/* sign up */
+/* sign up section*/
 
-.sufu{
-  
+.sufu-container{  
   background-image: url(../images/wave-bkgd.jpg);
-  min-height: 300px;
+  
   display: flex;
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
+ }
+
+ .signup-paragraph{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-paragraph h2{
+  height: 300px;
+  display: flex; 
+ }
+   
+ .signup-paragraph p{
+  /* height: 300px; */
+  display: flex;  
+}
+
+.input-combo{
+  
+}
+.email-input{
+  height: 50px;
+  width: 450px;;
+}
+#subscribe-button{
  
+  width: 125px;
 
 }
+
+
+
+
 
 /* footer */
 
