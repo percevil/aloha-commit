@@ -3,7 +3,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
-   
+    scroll-behavior: smooth;
   }
   *, *:before, *:after {
    box-sizing: inherit; 
@@ -294,42 +294,62 @@ html {
 
 .sufu-container{  
   background-image: url(../images/wave-bkgd.jpg);
-  
+  height: 330px;
+  padding: 65px 0px 65px 0px;
+  font-family: "Raleway";
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
  }
 
- .signup-paragraph{ 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .signup-paragraph h2{
-  height: 300px;
+  font-family: 'Playfair Display';
+  font-size: 25px;
+  width: 600px;
   display: flex; 
+ 
+
  }
    
- .signup-paragraph p{
-  /* height: 300px; */
+ .signup-paragraph p{ 
+  width: 650px; 
+  height: 75px;
+  font-size: 16px;
+
   display: flex;  
+  justify-content: flex-end;
 }
 
 .input-combo{
-  
+  display: flex;
+  /* align-self: flex-end; */
+  justify-content: flex-start;
+
+  position: relative;
 }
 .email-input{
+  border-radius: 25px;
   height: 50px;
   width: 450px;;
 }
-#subscribe-button{
- 
+.subscribe-button{
+  font-size: 15px;
+  color:white;
+  background-color: #e2574c;
+  border-radius: 25px;
   width: 125px;
-
+  position: absolute;
+  top: 0;
+  right: 0;
 }
-
+.subscribe-button:hover{
+  color:#b64036;
+}
 
 
 
@@ -337,12 +357,9 @@ html {
 /* footer */
 
 .footer{
-
-  
   padding: 0px 0px 0px 0px;
   margin: 0 auto;
   background-color:rgb(39, 37, 37);
- 
   color:white;
 }
 .footer a{

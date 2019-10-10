@@ -27,10 +27,10 @@ scroll-behaviour: smooth;
         <section class="main-header">
             <img class="logo" src="images/aloha-logo.svg" alt="Aloha Apparel Co.logo">
             <nav class="links">
-                <a href="about">ABOUT</a>
-                <a href="shop ">SHOP</a>
-                <a href="featured">FEATURED</a>
-                <a href="updates">UPDATES</a>
+                <a href="#about">ABOUT</a>
+                <a href="#shop ">SHOP</a>
+                <a href="#featured">FEATURED</a>
+                <a href="#updates">UPDATES</a>
             </nav>
             <div class="cart-wrapper">
                 <img class="cart" src="images/cart-icon.svg" alt="cart">
@@ -61,7 +61,7 @@ scroll-behaviour: smooth;
     
 
   
-    <section class="featured">
+    <section class="featured" id="featured">
         <!--mens trends glasses sale bags womens-->
         <div class="products mens" >
            <a href="mens">MEN'S</a>
@@ -87,7 +87,7 @@ scroll-behaviour: smooth;
    
 
 
-    <section class="mlp-container">
+    <section class="mlp-container" id="shop">
         <h3>Most-Loved Products</h3>
         <section class="most-loved">
             <img src=".//images/stretch-knit-dress.jpg" alt="">
@@ -98,41 +98,42 @@ scroll-behaviour: smooth;
         </section>
     </section>
 
+    
+    <div class="main-carousel">
+            <div class="carousel-cell">
+              <!-- product html here e.g. image, category, title & price  -->
+            </div>
+            <div class="carousel-cell">
+              <!-- product html here e.g. image, category, title & price  -->
+            </div>
+            <div class="carousel-cell">
+              <!-- product html here e.g. image, category, title & price  -->
+            </div>
+    </div>
+    
+
 
                     <!--sign-up for updates-->
-    <section class="sufu-container">
-        <section class="signup-paragraph">
-            <h2>Sign-up for Updates</h2>
+    <section class="sufu-container" id="updates">
+        
+            <h2>Sign-up for Updates</h2> 
             <p>Stay updates on our latest product releases, be first to find out about <br> upcoming sales,
             and get free style tips from our blog. Unsubscribe at any time.
             </p>
             <form  class="input-combo">
                 <input class="email-input" type="your-email" name="Your Email" value placeholder="Your Email" >
                 <!-- <input type="submit" value="Subscribe"> -->
-                <input id="subscribe-button" type="submit" name="subscribe" value="Subscribe" >
+                <input class="subscribe-button" type="submit" name="subscribe" value="Subscribe" >
             </form>
-            
-        </section>
+    
 
-        <div class="main-carousel">
-                <div class="carousel-cell">
-                  <!-- product html here e.g. image, category, title & price  -->
-                </div>
-                <div class="carousel-cell">
-                  <!-- product html here e.g. image, category, title & price  -->
-                </div>
-                <div class="carousel-cell">
-                  <!-- product html here e.g. image, category, title & price  -->
-                </div>
-              </div>
-        
     </section>
         
    
                  <!--copyright address social media-->
     <footer class="footer">
        
-       <div class="footer-inner container">
+       <div class="footer-inner " id="about">
             <div class="contact">
                 <p>2016 Aloha Apparel Co. </p> <br>  
                 <p>Powered by HTML and CSS </p>
