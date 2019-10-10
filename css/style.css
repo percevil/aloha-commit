@@ -154,6 +154,7 @@ html {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
+
   
   
 }
@@ -172,6 +173,10 @@ html {
   background-image: url(../images/mens-category.jpg);
   height: 25vw; 
   width: 50%; 
+  border-style: solid;
+  border-width: 0px 0px 10px 10px;
+  border-color: white;
+  
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -185,6 +190,9 @@ html {
   background-image: url(../images/trends-category.jpg);
   height: 25vw;  
   width: 25%; 
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -198,6 +206,9 @@ html {
   background-image: url(../images/glasses-category.jpg);
   height: 25vw; 
   width: 25%; 
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -212,6 +223,9 @@ html {
   background-image: url(../images/sale-category.jpg);
   height: 25vw; 
   width: 25%; 
+  border-style: solid;
+  border-width: 0px 10px 0px 0px;
+  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -226,6 +240,9 @@ html {
   background-image: url(../images/bags-category.jpg);
   height: 25vw; 
   width: 25%; 
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -242,6 +259,9 @@ html {
   background-repeat: no-repeat;
   height: 25vw; 
   width: 50%; 
+  border-style: solid;
+  border-width: 0px 0px 0px 10px;
+  border-color: white;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -294,7 +314,12 @@ html {
  
   color:white;
 }
-
+.footer a{
+  color:white; 
+}
+.footer a:hover{
+  color:orange; 
+}
 .footer-inner {
   display: flex;
   justify-content: space-between;
@@ -314,8 +339,7 @@ html {
 }
 
 .social{
-  /* min-height: 200px; */
-  /* width: 600px; */
+  
   /* margin: 0px 0px 0px 600px; */
   display: flex; 
   align-items: flex-end;
