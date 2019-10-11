@@ -1,28 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() { 
 
-    const elem = document.querySelector('.main-carousel');
-    const flkty = new Flickity( elem, {
-      // options
-      cellAlign: 'left',
-      wrapAround: true,
-      freeScroll: true
-      
-      
-      /* mobile style */
-.carousel-cell {
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* media query example */
-  @media screen and (min-width: 600px) {
-    .carousel-cell {
-      width: 25%;
-    }
-  }
+  const elem = document.querySelector('.main-carousel');
+  const flkty = new Flickity( elem, {
+    // options
+    cellAlign: 'left',
+    wrapAround: true,
+    freeScroll: true
+  });
+
 
 /* MESSAGE POP UP SECTION FOR EMAIL */
-
+  
   const messageForm = document.getElementById("message-form");
   // define other variables here if needed
   const messages = document.getElementById("messages");
@@ -44,31 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       alert('please enter a value');
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  });
 
 });

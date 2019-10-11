@@ -1,68 +1,67 @@
 /* Extra Resets */
 
 /* apply a natural box layout model to all elements, but allowing components to change */
+
 html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-  *, *:before, *:after {
-   box-sizing: inherit; 
-  }
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /* Typography */
-
-
-
 
 /* structure sizing */
 
 .container-large {
-    max-width: 1240px;
-    margin: 0px 0px 0px 72px; /* to center the element */
-    background-color:white;
-    background-position-x: center;
-    } 
-    
-.container-small{
-  max-width: 740px ;
-  height:263px;
+  max-width: 1240px;
+  margin: 0px 0px 0px 72px;
+  /* to center the element */
+  background-color: white;
+  background-position-x: center;
+}
+
+.container-small {
+  max-width: 740px;
+  height: 263px;
   padding: 64px 0px 64px 0px;
   /* background-color: grey;remove later */
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
 }
 
 /* header */
 
-.main-header{
-  height: 97px; 
+.main-header {
+  height: 97px;
   display: flex;
   align-items: center;
   padding: 16px 35px 8px 28px;
-  
 }
-.logo{
-  width:160px ;
+
+.logo {
+  width: 160px;
   height: 62px;
   display: flex;
 }
- 
- .cart{
+
+.cart {
   display: flex;
   height: 62px;
   width: 62px;
-  margin: 0px 0px 0px 0px; 
+  margin: 0px 0px 0px 0px;
+}
 
-} 
-
-.links{
+.links {
   font-size: 16px;
   display: flex;
   flex-grow: 1;
   justify-content: center;
 }
 
-.links a{
+.links a {
   display: inline-block;
   padding: 0px 20px 0px 20px;
   color: #e2574c;
@@ -74,123 +73,103 @@ html {
   margin: 0 auto;
 }
 
-
-
 /* banner  */
 
-.banner{
-
-    background-image: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-    background-repeat: no-repeat,repeat-x;
-    background-position: top center ;
-    background-size: 240px 615px, 60%;
-    height: 500px;
-    color: white; 
-    text-align: center;
-    margin: 0px 0px 0px 0px;
-    font-family: 'Raleway';
-    font-size: 65px;
-    }
-
-  .overlay{
-    height: 500px;
-    background:rgba(0,0,0,0.2);  
-    
-   
- }
-    
-
-.banner h4{
-     height: 200px; 
-     padding: 0px 0px 0px 0px;
-      font-size: 25px; 
-      display: flex;
-      justify-content: center ;
-      align-items: flex-end;
+.banner {
+  background-image: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: top center;
+  background-size: 240px 615px, 60%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Raleway';
+  font-size: 65px;
 }
-      
-.banner h1{
-      height: 200px;
-      padding: 0px 0px 00px 0px;
-      font-family:'Playfair Display';
-      display: flex;
-      justify-content: center;
-      align-items: top;
 
-    }
+.overlay {
+  height: 500px;
+  background: rgba(0, 0, 0, 0.2);
+}
 
+.banner h4 {
+  height: 200px;
+  padding: 0px 0px 0px 0px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.banner h1 {
+  height: 200px;
+  padding: 0px 0px 00px 0px;
+  font-family: 'Playfair Display';
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
 
 .container-large nav {
   font-family: 'Raleway';
 }
-   
 
 /* hand-crafted */
 
-.container-small h1{
+.container-small h1 {
   font-family: 'Playfair Display';
-  font-size: 40px; 
-   
+  font-size: 40px;
 }
 
-.hand-crafted{
+.hand-crafted {
   font-style: italic;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.container-small p{
+.container-small p {
   font-size: 16px;
-  font-family:'Raleway';
+  font-family: 'Raleway';
   font-weight: 100;
 }
 
-
-
 /* featured */
 
-.featured{ 
+.featured {
   text-decoration: none;
   display: flex;
-  flex-wrap: wrap;
-
-  
-  
+  flex-wrap: wrap
 }
-.featured a{ 
-  text-decoration: none;
-}  
 
-
-.products a{
-  font-family:'Raleway';
+.products a {
+  font-family: 'Raleway';
   color: white;
   font-size: 26px;
 }
-.mens { 
+
+.mens {
   /* mens */
   background-image: url(../images/mens-category.jpg);
-  height: 25vw; 
-  width: 50%; 
+  height: 25vw;
+  width: 50%;
   border-style: solid;
   border-width: 0px 0px 10px 10px;
   border-color: white;
-  
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
-  
-.trends{
 
-    /* trends */
+.trends {
+  /* trends */
   background-image: url(../images/trends-category.jpg);
-  height: 25vw;  
-  width: 25%; 
+  height: 25vw;
+  width: 25%;
   border-style: solid;
   border-width: 0px 0px 10px 0px;
   border-color: white;
@@ -199,14 +178,13 @@ html {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-       
-     }
-.glasses {
+}
 
-    /* glasses */
+.glasses {
+  /* glasses */
   background-image: url(../images/glasses-category.jpg);
-  height: 25vw; 
-  width: 25%; 
+  height: 25vw;
+  width: 25%;
   border-style: solid;
   border-width: 0px 0px 10px 0px;
   border-color: white;
@@ -215,15 +193,13 @@ html {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-    
 }
 
 .sale {
-
-      /* sale */
+  /* sale */
   background-image: url(../images/sale-category.jpg);
-  height: 25vw; 
-  width: 25%; 
+  height: 25vw;
+  width: 25%;
   border-style: solid;
   border-width: 0px 10px 0px 0px;
   border-color: white;
@@ -232,15 +208,13 @@ html {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-      
-      }
+}
 
-.bags{
-
-      /* bags */
+.bags {
+  /* bags */
   background-image: url(../images/bags-category.jpg);
-  height: 25vw; 
-  width: 25%; 
+  height: 25vw;
+  width: 25%;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
   border-color: white;
@@ -249,50 +223,70 @@ html {
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-      
-      } 
-      
-.womens {
+}
 
-      /* womens */
+.womens {
+  /* womens */
   background-image: url(../images/womens-category.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 25vw; 
-  width: 50%; 
+  height: 25vw;
+  width: 50%;
   border-style: solid;
   border-width: 0px 0px 0px 10px;
   border-color: white;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-
 /* most loved products */
 
+/* .mlp-container {
+  
+  min-height: 600px; */
+ 
+  .main-carousel{
+    /* display: flex;
+    align-items: center;
+    justify-content:center; */
+    /* height: 800px ; */
+    max-width:1240px;
+    margin: 0 auto;
+    padding:2rem 0;
 
-.mlp-container{
-  padding: 64px 0px 64px 0px;
-  min-height: 600px;
-  width: 970px;
+  }
+.mlp h3{
+  height:40px;
+  display: flex;
+  
+
 }
 
- .most-loved {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 0px 64px 64px px;
-   min-height: 320px;
-   width: 320px;
-   background-color:white;
-   
+.carousel-cell {
+  /* padding: 0px 64px 64px 0px; */
+  /* min-height: 320px;
+  width: 320px; */
+  /* display: flex; */
+  background-color: white;
+}
 
-}  
-
+      
+      /* mobile style */
+      .carousel-cell {
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* media query example */
+      @media screen and (min-width: 600px) {
+          .carousel-cell {
+            width: 25%;
+          }
+        }
 /* sign up section*/
 
-.sufu-container{  
+.sufu-container {
   background-image: url(../images/wave-bkgd.jpg);
   height: 330px;
   padding: 65px 0px 65px 0px;
@@ -303,43 +297,40 @@ html {
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
- }
+}
 
-
-
-.signup-paragraph h2{
+.signup-paragraph h2 {
   font-family: 'Playfair Display';
   font-size: 25px;
   width: 600px;
-  display: flex; 
- 
+  display: flex;
+}
 
- }
-   
- .signup-paragraph p{ 
-  width: 650px; 
+.signup-paragraph p {
+  width: 650px;
   height: 75px;
   font-size: 16px;
-
-  display: flex;  
+  display: flex;
   justify-content: flex-end;
 }
 
-.input-combo{
+.input-combo {
   display: flex;
   /* align-self: flex-end; */
   justify-content: flex-start;
-
   position: relative;
 }
-.email-input{
+
+.email-input {
   border-radius: 25px;
   height: 50px;
-  width: 450px;;
+  width: 450px;
+  ;
 }
-.subscribe-button{
+
+.subscribe-button {
   font-size: 15px;
-  color:white;
+  color: white;
   background-color: #e2574c;
   border-radius: 25px;
   width: 125px;
@@ -347,76 +338,67 @@ html {
   top: 0;
   right: 0;
 }
-.subscribe-button:hover{
-  color:#b64036;
+
+.subscribe-button:hover {
+  color: #b64036;
 }
-
-
-
 
 /* footer */
 
-.footer{
+.footer {
   padding: 0px 0px 0px 0px;
   margin: 0 auto;
-  background-color:rgb(39, 37, 37);
-  color:white;
+  background-color: rgb(39, 37, 37);
+  color: white;
 }
-.footer a{
-  color:white; 
+
+.footer a {
+  color: white;
 }
-.footer a:hover{
-  color:orange; 
+
+.footer a:hover {
+  color: orange;
 }
+
 .footer-inner {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
 }
-.footer p{
 
-
+.footer p {
   /* width: 600px;  */
   padding: 0px 0px 0px 0px;
   font-size: 16px;
-  color:white;
+  color: white;
   font-family: 'Playfair';
   text-decoration: none;
   display: flex;
- 
 }
 
-.social{
-  
-  /* margin: 0px 0px 0px 600px; */
-  display: flex; 
+.social {
+  display: flex;
   align-items: flex-end;
-  justify-content: flex-end ;
+  justify-content: flex-end;
   flex-direction: column;
   text-decoration: none;
 }
-.social a:hover{
-  color:orange; 
+
+.social a:hover {
+  color: orange;
 }
 
-.social a{
+.social a {
   margin: 0px 0px 0px 0px;
   height: 38px;
   width: 150px;
   font-size: 16px;
-  color:white;
+  color: white;
   font-family: 'Raleway';
-  
-  }
+}
 
+/* break points */
 
+@media screen and (min-width: 480px) {}
 
-
-
-
-  /* break points */
-
-  @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 600px) {
-  }
+@media screen and (min-width: 600px) {}
