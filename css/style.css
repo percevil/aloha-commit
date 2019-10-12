@@ -243,18 +243,28 @@ html {
 /* most loved products */
 
 .main-carousel {
+  height: 650px;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 7rem 0;
 }
 
 .mlp h3 {
-  height: 80px;
+  height: 100px;
+  font-size: 38px;
+  font-family: 'PLayfair Display';
+  font-style: italic;
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bold {
+  font-style: normal;
 }
 
 .carousel-cell {
-  height: 500px;
+  height: 450px;
   width: 100%;
   text-align: center;
 }
@@ -349,9 +359,6 @@ html {
   color: #969696;
 }
 
-
-
-
 .bhbp {
   margin: 0px 0px 0px 15px;
   color: #e2574c;
@@ -442,7 +449,6 @@ html {
   color: #969696;
 }
 
-
 .bsd {
   margin: 0px 0px 0px 15px;
   color: #e2574c;
@@ -503,12 +509,6 @@ html {
   color: #969696;
 }
 
-
-
-
-
-
-
 /* media query example */
 
 @media screen and (min-width: 600px) {
@@ -521,7 +521,7 @@ html {
 
 .sufu-container {
   background-image: url(../images/wave-bkgd.jpg);
-  height: 330px;
+  height: 430px;
   padding: 65px 0px 65px 0px;
   font-family: "Raleway";
   display: flex;
@@ -532,11 +532,14 @@ html {
   background-repeat: no-repeat;
 }
 
-.signup-paragraph h2 {
+.sufu-container h2 {
   font-family: 'Playfair Display';
-  font-size: 25px;
+  /* color: aliceblue; */
+  font-size: 35px;
+  height: 80px;
   width: 600px;
   display: flex;
+  justify-content: center;
 }
 
 .signup-paragraph p {
@@ -544,32 +547,37 @@ html {
   height: 75px;
   font-size: 16px;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: center; */
+  align-items: stretch; 
 }
 
 .input-combo {
   display: flex;
-  /* align-self: flex-end; */
-  justify-content: flex-start;
-  position: relative;
+
+  position: relative; 
+  top: 40px;
 }
 
 .email-input {
   border-radius: 25px;
-  height: 50px;
+  height: 56px;
   width: 450px;
-  ;
+
+  
 }
 
 .subscribe-button {
+  height: 46px;
+  width: 130px;
   font-size: 15px;
   color: white;
   background-color: #e2574c;
   border-radius: 25px;
-  width: 125px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 6px ;
+  right: 4px;
+  
+  
 }
 
 .subscribe-button:hover {
@@ -579,6 +587,7 @@ html {
 /* footer */
 
 .footer {
+
   padding: 0px 0px 0px 0px;
   margin: 0 auto;
   background-color: rgb(39, 37, 37);
@@ -594,6 +603,7 @@ html {
 }
 
 .footer-inner {
+  height: 260px;
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
