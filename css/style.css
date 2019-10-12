@@ -243,10 +243,6 @@ html {
 /* most loved products */
 
 .main-carousel {
-  /* display: flex;
-    align-items: center;
-    justify-content:center; */
-  /* height: 800px ; */
   max-width: 1240px;
   margin: 0 auto;
   padding: 2rem 0;
@@ -264,7 +260,7 @@ html {
 }
 
 .skd {
-  margin: 0px 0px 0px 50px;
+  margin: 0px 0px 0px 15px;
   color: #e2574c;
   height: 180px;
   display: flex;
@@ -273,27 +269,245 @@ html {
 }
 
 .skd h4 {
-  height: 25px;
+  height: 35px;
   font-family: 'Raleway';
   font-size: 12px;
   color: #969696;
 }
 
 .skd h1 {
-  height: 25px;
+  height: 35px;
   font-family: 'Playfair Display';
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .skd h2 {
-  height: 40px;
+  height: 35px;
   margin: 15px auto;
   font-family: 'Raleway';
   font-size: 16px;
   color: #969696;
-  /* display: flex; */
-
 }
+
+.cbs {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cbs h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.cbs h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.cbs h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+.csd {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.csd h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.csd h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.csd h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+
+
+
+.bhbp {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bhbp h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.bhbp h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.bhbp h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+.dos {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dos h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.dos h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.dos h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+.pdd {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pdd h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.pdd h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.pdd h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+
+.bsd {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bsd h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.bsd h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.bsd h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+.cyts {
+  margin: 0px 0px 0px 15px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cyts h4 {
+  height: 35px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.cyts h1 {
+  height: 35px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+}
+
+.cyts h2 {
+  height: 35px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+}
+
+
+
+
+
+
 
 /* media query example */
 
