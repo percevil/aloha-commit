@@ -139,12 +139,12 @@ html {
 /* featured */
 
 .featured {
-  text-decoration: none;
   display: flex;
   flex-wrap: wrap
 }
 
 .products a {
+  text-decoration: none;
   font-family: 'Raleway';
   color: white;
   font-size: 26px;
@@ -242,48 +242,67 @@ html {
 
 /* most loved products */
 
-/* .mlp-container {
-  
-  min-height: 600px; */
- 
-  .main-carousel{
-    /* display: flex;
+.main-carousel {
+  /* display: flex;
     align-items: center;
     justify-content:center; */
-    /* height: 800px ; */
-    max-width:1240px;
-    margin: 0 auto;
-    padding:2rem 0;
+  /* height: 800px ; */
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
-  }
-.mlp h3{
-  height:40px;
+.mlp h3 {
+  height: 80px;
   display: flex;
-  
-
 }
 
 .carousel-cell {
-  /* padding: 0px 64px 64px 0px; */
-  /* min-height: 320px;
-  width: 320px; */
-  /* display: flex; */
-  background-color: white;
+  height: 500px;
+  width: 100%;
+  text-align: center;
 }
 
-      
-      /* mobile style */
-      .carousel-cell {
-        width: 100%;
-        text-align: center;
-      }
-      
-      /* media query example */
-      @media screen and (min-width: 600px) {
-          .carousel-cell {
-            width: 25%;
-          }
-        }
+.skd {
+  margin: 0px 0px 0px 50px;
+  color: #e2574c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skd h4 {
+  height: 25px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #969696;
+}
+
+.skd h1 {
+  height: 25px;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+}
+
+.skd h2 {
+  height: 40px;
+  margin: 15px auto;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #969696;
+  /* display: flex; */
+
+}
+
+/* media query example */
+
+@media screen and (min-width: 600px) {
+  .carousel-cell {
+    width: 25%;
+  }
+}
+
 /* sign up section*/
 
 .sufu-container {
