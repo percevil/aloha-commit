@@ -88,7 +88,7 @@ html {
   font-size: 65px;
 }
 
-.overlay {
+#overlay {
   height: 500px;
   background: rgba(0, 0, 0, 0.2);
 }
@@ -139,25 +139,36 @@ html {
 /* featured */
 
 .featured {
+
+  
+  font-family: 'Raleway';
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
-.products a {
-  text-decoration: none;
+.featured a {
   font-family: 'Raleway';
+  font-size: 40px;
+  text-decoration: none;
   color: white;
-  font-size: 26px;
 }
+
+#products{
+  border-width: 5px 5px 0px 0px;
+  border-style: solid;
+  border-color:white;
+}
+
 
 .mens {
   /* mens */
   background-image: url(../images/mens-category.jpg);
   height: 25vw;
   width: 50%;
-  border-style: solid;
-  border-width: 0px 0px 10px 10px;
-  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -170,9 +181,6 @@ html {
   background-image: url(../images/trends-category.jpg);
   height: 25vw;
   width: 25%;
-  border-style: solid;
-  border-width: 0px 0px 10px 0px;
-  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -185,9 +193,6 @@ html {
   background-image: url(../images/glasses-category.jpg);
   height: 25vw;
   width: 25%;
-  border-style: solid;
-  border-width: 0px 0px 10px 0px;
-  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -200,9 +205,6 @@ html {
   background-image: url(../images/sale-category.jpg);
   height: 25vw;
   width: 25%;
-  border-style: solid;
-  border-width: 0px 10px 0px 0px;
-  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -215,9 +217,6 @@ html {
   background-image: url(../images/bags-category.jpg);
   height: 25vw;
   width: 25%;
-  border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  border-color: white;
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
@@ -232,9 +231,6 @@ html {
   background-repeat: no-repeat;
   height: 25vw;
   width: 50%;
-  border-style: solid;
-  border-width: 0px 0px 0px 10px;
-  border-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -521,22 +517,25 @@ html {
 
 .sufu-container {
   background-image: url(../images/wave-bkgd.jpg);
-  height: 430px;
+  height: 350px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 0px 10px 0px;
   padding: 65px 0px 65px 0px;
   font-family: "Raleway";
+  color: white;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-size: cover;
   background-position: center bottom;
-  background-repeat: no-repeat;
 }
 
 .sufu-container h2 {
   font-family: 'Playfair Display';
-  /* color: aliceblue; */
+  font-style: italic;
   font-size: 35px;
-  height: 80px;
+  height: 60px;
   width: 600px;
   display: flex;
   justify-content: center;
@@ -547,14 +546,13 @@ html {
   height: 75px;
   font-size: 16px;
   display: flex;
-  /* justify-content: center; */
-  align-items: stretch; 
+  text-align: center;
+  justify-content: flex-end;
 }
 
 .input-combo {
   display: flex;
-
-  position: relative; 
+  position: relative;
   top: 40px;
 }
 
@@ -562,8 +560,6 @@ html {
   border-radius: 25px;
   height: 56px;
   width: 450px;
-
-  
 }
 
 .subscribe-button {
@@ -574,24 +570,26 @@ html {
   background-color: #e2574c;
   border-radius: 25px;
   position: absolute;
-  top: 6px ;
+  top: 6px;
   right: 4px;
-  
-  
 }
 
 .subscribe-button:hover {
   color: #b64036;
 }
 
+
 /* footer */
 
 .footer {
-
   padding: 0px 0px 0px 0px;
   margin: 0 auto;
   background-color: rgb(39, 37, 37);
-  color: white;
+ 
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+ 
 }
 
 .footer a {
@@ -603,10 +601,12 @@ html {
 }
 
 .footer-inner {
-  height: 260px;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 0;
+  position: relative;
+  top: 65px;
+  left: 105px;
+}
+.address {
+  color: #969696;
 }
 
 .footer p {
@@ -620,11 +620,14 @@ html {
 }
 
 .social {
+  width: 200px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   flex-direction: column;
-  text-decoration: none;
+  position: relative;
+  bottom: 65px;
+  right: 55px;
 }
 
 .social a:hover {
@@ -632,6 +635,9 @@ html {
 }
 
 .social a {
+  position: relative;
+  left: 1100px;
+  bottom: 65px;
   margin: 0px 0px 0px 0px;
   height: 38px;
   width: 150px;
@@ -642,6 +648,10 @@ html {
 
 /* break points */
 
-@media screen and (min-width: 480px) {}
+@media screen and (min-width: 480px) {
+
+
+  
+}
 
 @media screen and (min-width: 600px) {}

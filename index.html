@@ -38,7 +38,7 @@
 
     <section class="banner">
         <!--new collection spring/summer 2019-->
-        <section class="overlay">
+        <section id="overlay">
             <h4>New Collection</h4>
             <h1>Spring/Summer 2019</h1>
         </section>
@@ -61,22 +61,22 @@
 
     <section class="featured">
         <!--mens trends glasses sale bags womens-->
-        <div class="products mens">
+        <div class="mens" id="products">
             <a href="mens">MEN'S</a>
         </div>
-        <div class="products trends">
+        <div class="trends" id="products">
             <a href="trends">TRENDS</a>
         </div>
-        <div class="products glasses">
+        <div class="glasses" id="products">
             <a href="glasses">GLASSES</a>
         </div>
-        <div class="products sale">
+        <div class="sale" id="products">
             <a href="sale">SALE</a>
         </div>
-        <div class="products bags">
+        <div class="bags" id="products">
             <a href="bags">BAGS</a>
         </div>
-        <div class="products womens">
+        <div class="womens" id="products">
             <a href="womens">WOMEN'S</a>
         </div>
 
@@ -160,31 +160,37 @@
 
 
     <!--sign-up for updates-->
-    <section class="sufu-container" id="updates">
 
-        <h2>Sign-up for Updates</h2>
+    <section class="sufu-container" id"overlay">
+
+        <h2>Sign-up for <span class="bold">Updates</span></h2>
         <p>Stay updates on our latest product releases, be first to find out about <br><br> upcoming sales,
             and get free style tips from our blog. Unsubscribe at any time.
         </p>
+
         <form class="input-combo">
+
             <input class="email-input" type="your-email" name="Your Email" value placeholder="Your Email">
+
             <input class="subscribe-button" type="submit" name="subscribe" value="Subscribe">
         </form>
-
-
     </section>
+
 
 
     <!--copyright address social media-->
     <footer class="footer">
 
-        <div class="footer-inner " id="about">
-            <div class="contact">
+        <div class="footer-inner">
+            <div>
                 <p>2016 Aloha Apparel Co. </p> <br>
-                <p>Powered by HTML and CSS </p>
+                <p>Powered by HTML and CSS </p> <br>
                 <p>604-604-6040. <a href="">info@alohaapparel.com </a></p> <br>
-                <p>1490 W Broadway</p>
-                <p>Vancouver, BC, Canada.</p>
+                <div class="address">
+                    <p>1490 W Broadway</p>
+                    <p>Vancouver, BC, Canada.</p>
+                    </section>
+                </div>
             </div>
 
             <nav class="social">
