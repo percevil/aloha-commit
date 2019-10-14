@@ -2,12 +2,9 @@
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 
-
-
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  
 }
 
 *, *:before, *:after {
@@ -21,7 +18,6 @@ html {
 .container-large {
   max-width: 1240px;
   margin: 0px 0px 0px 72px;
-  /* to center the element */
   background-color: white;
   background-position-x: center;
 }
@@ -58,10 +54,10 @@ html {
 }
 
 .links {
-  font-size: 1rem;
+  font-size: .9rem;
   display: flex;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .links a {
@@ -71,16 +67,12 @@ html {
   text-decoration: none;
 }
 
-
 /* banner  */
 
 .banner {
-  background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg) ;
-
-  
-
+  background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
   background-repeat: no-repeat, repeat-x;
-  background-position:  top center; 
+  background-position: top center;
   background-size: 240px 615px, 60%;
   height: 500px;
   color: white;
@@ -155,18 +147,15 @@ html {
   color: white;
 }
 
-#products{
-  
+#products {
   border-width: 5px 5px 0px 0px;
   border-style: solid;
-  border-color:white;
+  border-color: white;
 }
-
 
 .mens {
   /* mens */
-  background: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),url(../images/mens-category.jpg) ;
-
+  background: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/mens-category.jpg);
   height: 25vw;
   width: 50%;
   display: flex;
@@ -178,7 +167,7 @@ html {
 
 .trends {
   /* trends */
-  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(../images/trends-category.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/trends-category.jpg);
   height: 25vw;
   width: 25%;
   display: flex;
@@ -190,7 +179,7 @@ html {
 
 .glasses {
   /* glasses */
-  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(../images/glasses-category.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/glasses-category.jpg);
   height: 25vw;
   width: 25%;
   display: flex;
@@ -202,7 +191,7 @@ html {
 
 .sale {
   /* sale */
-  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(../images/sale-category.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/sale-category.jpg);
   height: 25vw;
   width: 25%;
   display: flex;
@@ -214,7 +203,7 @@ html {
 
 .bags {
   /* bags */
-  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(../images/bags-category.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/bags-category.jpg);
   height: 25vw;
   width: 25%;
   display: flex;
@@ -226,7 +215,7 @@ html {
 
 .womens {
   /* womens */
-  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), url(../images/womens-category.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/womens-category.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 25vw;
@@ -235,8 +224,6 @@ html {
   align-items: center;
   justify-content: center;
 }
-
-
 
 /* most loved products */
 
@@ -507,8 +494,6 @@ html {
   color: #969696;
 }
 
-/* media query example */
-
 @media screen and (min-width: 960px) {
   .carousel-cell {
     width: 25%;
@@ -518,7 +503,7 @@ html {
 /* sign up section*/
 
 .sufu-container {
-  background-image: linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),ß url(../images/wave-bkgd.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/wave-bkgd.jpg);
   height: 350px;
   border-style: solid;
   border-color: white;
@@ -526,7 +511,6 @@ html {
   padding: 65px 0px 65px 0px;
   font-family: "Raleway";
   color: white;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -563,12 +547,12 @@ html {
   height: 56px;
   width: 450px;
 }
-.email-input .placeholder { 
-  color: red;
-  font-family:'Raleway';
-  font-size: 10px;
 
- }
+.email-input .placeholder {
+  color: red;
+  font-family: 'Raleway';
+  font-size: 10px;
+}
 
 .subscribe-button {
   height: 46px;
@@ -586,18 +570,14 @@ html {
   color: #b64036;
 }
 
-
 /* footer */
 
 .footer {
-  padding: 0px 0px 0px 0px;
   margin: 0 auto;
   background-color: rgb(39, 37, 37);
- 
   height: 300px;
   display: flex;
   justify-content: space-between;
- 
 }
 
 .footer a {
@@ -613,7 +593,8 @@ html {
   top: 65px;
   left: 105px;
 }
-.address {
+
+.address .p {
   color: #969696;
 }
 
@@ -654,22 +635,119 @@ html {
   font-family: 'Raleway';
 }
 
-
 /* break points */
 
+@media screen and (max-width: 600px) {
+  /* top of 600 */
+  .main-header {
+    height: auto;
+    /* width: rem; */
+    position: relative;
+    right: 90px;
+    padding: 0px 0px 25px 20px;
+    border: dotted;
+    border-width: 0px 0px 1px 0px;
+    display: flex;
+    /* position: relative;   "dotted border"
+  bottom: 0px; */
+  }
+  .links a {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    color: #e2574c;
+    text-decoration: none;
+  }
+  .main-header a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+    position: relative;
+    left: 4rem;
+    bottom: .5rem;
+  }
+  .logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+  }
+  .cart {
+    height: 45px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    left: 6rem;
+    bottom: 1rem;
+  }
+  .banner {
+    background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: top center;
+    height: 400px;
+    background-size: 240px 615px, auto;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 2rem;
+  }
+  #overlay {
+    height: auto;
+  }
+  .banner h1 {
+    position: relative;
+    top: 25px;
+  }
+  .featured {
+    font-family: 'Raleway';
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .mens {
+    width: ;
+    ;
+  }
+  .sufu-container p {
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #copyright {
+    position: relative;
+    bottom: 65px;
+    left: 65px;
+  }
 
+  .social{
+    position: relative;
+    left: 6px;
+    bottom: 85px;
 
-@media screen and (max-width: 480px) { 
-                                        /* top of 480 */
-
-/* .body { color: darkcyan;
+  }
+  .social a {
+    width: 75px;
+    height: 30px;
+    position: relative;
+    left: 60px;
+    top: 3..5px;
+    font-size: 14px;
+  }
+.address{
+  position: relative;
+    left: 60px;
+    bottom: 65px;
 }
-.container-large {
-  max-width: 100%;
-  /* margin: 0px 0px 0px 72px; */
-  
-  
-}  
 
 
 
@@ -677,36 +755,10 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-                                         /* bottom of 480  */
-  
-
- 
-
-
-@media screen and (min-width: 600px) {
-
-
-  /* html {
+  /* bottom of 480  */
+  @media screen and (min-width: 480px) {
+    /* html {
     background-color: darkblue;
   } */
-
-  .container-large {
-    max-width: 100%;
-    /* margin: 0px 0px 0px 72px; */
-    
-    
-  }  
-
-
-
+  }
 }
