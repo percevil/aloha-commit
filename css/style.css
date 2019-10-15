@@ -635,10 +635,11 @@ html {
   font-family: 'Raleway';
 }
 
-/* break points */
+                                /*  600px break point */
 
-@media screen and (max-width: 600px) {
-  /* top of 600 */
+@media screen and (max-width: 600px) 
+{
+  
   .main-header {
     height: auto;
     /* width: rem; */
@@ -669,7 +670,7 @@ html {
     bottom: .5rem;
   }
   .logo {
-    width: 25%;
+    width: 30%;
     height: 100%;
     display: flex;
     position: relative;
@@ -691,7 +692,7 @@ html {
     color: white;
     text-align: center;
     font-family: 'Raleway';
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
   #overlay {
     height: auto;
@@ -702,15 +703,35 @@ html {
   }
   .featured {
     font-family: 'Raleway';
-    font-size: 16px;
+    font-size: 22px;
     text-decoration: none;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .mens {
-    width: ;
-    ;
+    height: 250px;
+    flex-basis: 100%;
+  }
+  .trends {
+    flex-basis: 50%;
+    height: 250px;
+  }
+  .glasses {
+    flex-basis: 50%;
+    height: 250px;
+  }
+  .sale {
+    flex-basis: 50%;
+    height: 250px;
+  }
+  .bags {
+    flex-basis: 50%;
+    height: 250px;
+  }
+  .womens {
+    height: 250px;
+    flex-basis: 100%;
   }
   .sufu-container p {
     font-size: 14px;
@@ -726,39 +747,57 @@ html {
   #copyright {
     position: relative;
     bottom: 65px;
-    left: 65px;
+    left: 85px;
   }
-
-  .social{
+  .social {
     position: relative;
     left: 6px;
     bottom: 85px;
-
   }
   .social a {
-    width: 75px;
-    height: 30px;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    left: 60px;
+    top: 35px;
+    font-size: 14px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+    /* flex-flow: row nowrap; */
+  }
+  #p1 {
+    position: relative;
+    left: 18px;
+  }
+  #p2 {
+    position: relative;
+    left: 2px;
+  }
+  #p3 {
+    position: relative;
+    right: 25px;
+  }
+  #p4 {
+    position: relative;
+    left: 53px;
+  }
+  #p5 {
+    position: relative;
+    left: 35px;
+  }
+  .address {
     position: relative;
     left: 60px;
-    top: 3..5px;
-    font-size: 14px;
-  }
-.address{
-  position: relative;
-    left: 60px;
     bottom: 65px;
-}
-
-
-
-
-
-
-
+  }
+  #link-text {
+    display: none;
+  }
   /* bottom of 480  */
-  @media screen and (min-width: 480px) {
-    /* html {
+  @media screen and (max-width: 480px) {
+    html {
     background-color: darkblue;
-  } */
+  }
   }
 }
