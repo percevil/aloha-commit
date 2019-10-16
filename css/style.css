@@ -1,6 +1,3 @@
-/* Extra Resets */
-
-/* apply a natural box layout model to all elements, but allowing components to change */
 
 html {
   box-sizing: border-box;
@@ -11,9 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Typography */
-
-/* structure sizing */
 
 .container-large {
   max-width: 1240px;
@@ -26,12 +20,10 @@ html {
   max-width: 740px;
   height: 263px;
   padding: 64px 0px 64px 0px;
-  /* background-color: grey;remove later */
   margin: 0 auto;
   text-align: center;
 }
 
-/* header */
 
 .main-header {
   height: 97px;
@@ -67,7 +59,6 @@ html {
   text-decoration: none;
 }
 
-/* banner  */
 
 .banner {
   background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
@@ -108,7 +99,6 @@ html {
   font-family: 'Raleway';
 }
 
-/* hand-crafted */
 
 .container-small h1 {
   font-family: 'Playfair Display';
@@ -128,8 +118,6 @@ html {
   font-family: 'Raleway';
   font-weight: 100;
 }
-
-/* featured */
 
 .featured {
   font-family: 'Raleway';
@@ -154,7 +142,6 @@ html {
 }
 
 .mens {
-  /* mens */
   background: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/mens-category.jpg);
   height: 25vw;
   width: 50%;
@@ -166,7 +153,6 @@ html {
 }
 
 .trends {
-  /* trends */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/trends-category.jpg);
   height: 25vw;
   width: 25%;
@@ -178,7 +164,6 @@ html {
 }
 
 .glasses {
-  /* glasses */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/glasses-category.jpg);
   height: 25vw;
   width: 25%;
@@ -190,7 +175,6 @@ html {
 }
 
 .sale {
-  /* sale */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/sale-category.jpg);
   height: 25vw;
   width: 25%;
@@ -202,7 +186,6 @@ html {
 }
 
 .bags {
-  /* bags */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/bags-category.jpg);
   height: 25vw;
   width: 25%;
@@ -214,7 +197,6 @@ html {
 }
 
 .womens {
-  /* womens */
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/womens-category.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -225,7 +207,6 @@ html {
   justify-content: center;
 }
 
-/* most loved products */
 
 .main-carousel {
   height: 650px;
@@ -500,8 +481,6 @@ html {
   }
 }
 
-/* sign up section*/
-
 .sufu-container {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .25) 0, rgba(0, 0, 0, .25)), url(../images/wave-bkgd.jpg);
   height: 350px;
@@ -570,7 +549,6 @@ html {
   color: #b64036;
 }
 
-/* footer */
 
 .footer {
   margin: 0 auto;
@@ -599,7 +577,7 @@ html {
 }
 
 .footer p {
-  /* width: 600px;  */
+
   padding: 0px 0px 0px 0px;
   font-size: 16px;
   color: white;
@@ -612,7 +590,6 @@ html {
   width: 200px;
   display: flex;
   align-items: flex-end;
-  /* justify-content: flex-end; */
   flex-direction: column;
   position: relative;
   bottom: 65px;
@@ -627,7 +604,6 @@ html {
   position: relative;
   left: 1100px;
   bottom: 65px;
-  margin: 0px 0px 0px 0px;
   height: 38px;
   width: 150px;
   font-size: 16px;
@@ -635,22 +611,18 @@ html {
   font-family: 'Raleway';
 }
 
-                                /*  600px break point */
 
 @media screen and (max-width: 600px) 
 {
   
   .main-header {
     height: auto;
-    /* width: rem; */
     position: relative;
     right: 90px;
     padding: 0px 0px 25px 20px;
     border: dotted;
     border-width: 0px 0px 1px 0px;
     display: flex;
-    /* position: relative;   "dotted border"
-  bottom: 0px; */
   }
   .links a {
     width: 150px;
@@ -762,9 +734,7 @@ html {
     top: 35px;
     font-size: 14px;
     display: flex;
-    /* flex-wrap: nowrap; */
-    /* flex-direction: row; */
-    /* flex-flow: row nowrap; */
+
   }
   #p1 {
     position: relative;
@@ -794,10 +764,9 @@ html {
   #link-text {
     display: none;
   }
-  /* bottom of 480  */
-  @media screen and (max-width: 480px) {
-    html {
-    background-color: darkblue;
-  }
+ 
+  @media screen and (max-width: 1300px) 
+  {
+   
   }
 }
