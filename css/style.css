@@ -33,36 +33,50 @@ html {
 
 .main-header {
   display: flex;
-  height: 97px;
+  height: 12vh;
   align-items: center;
   width: 100%;
   justify-content: space-around;
+  margin-bottom: 40px;
+  border-bottom: 1px dotted gray;
 }
 
 .logo {
-  width: 160px;
-  height: 62px;
+  width: 137px;
+  height: 44px;
+  margin-left: 35px;
 }
 
 .cart-wrapper {
   display: flex;
 }
 .cart {
-  height: 62px;
-  width: 62px;
+  height: 48px;
+
+
 }
 
 .links-container {
+
   font-size: 0.9rem;
   display: flex;
+  margin-top: 100px;
+  margin-right: 57px;
+  align-items: flex-end;
+  
+ 
+ 
 }
 .links-nav li {
   display: inline;
+
 }
+
 
 .links-container a {
   color: #e2574c;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .banner {
@@ -111,6 +125,9 @@ html {
   font-family: "Playfair Display";
   font-size: 2.5rem;
 }
+.hand-crafted-container {
+  font-size: 48px;
+}
 
 .hand-crafted {
   font-style: italic;
@@ -121,7 +138,7 @@ html {
 }
 
 .container-small p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Raleway";
   font-weight: 100;
 }
@@ -511,154 +528,15 @@ html {
   color: #969696;
 }
 
-@media screen and (min-width: 960px) {
-  .carousel-cell {
-    width: 25%;
-  }
-}
-
-.sufu-container {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.25) 0,
-      rgba(0, 0, 0, 0.25)
-    ),
-    url(../images/wave-bkgd.jpg);
-  height: 350px;
-  border-style: solid;
-  border-color: white;
-  border-width: 0px 0px 10px 0px;
-  padding: 65px 0px 65px 0px;
-  font-family: "Raleway";
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-position: center bottom;
-}
-
-.sufu-container h2 {
-  font-family: "Playfair Display";
-  font-style: italic;
-  font-size: 35px;
-  height: 60px;
-  width: 600px;
-  display: flex;
-  justify-content: center;
-}
-
-.signup-paragraph p {
-  width: 650px;
-  height: 75px;
-  font-size: 16px;
-  display: flex;
-  text-align: center;
-  justify-content: flex-end;
-}
-
-.input-combo {
-  display: flex;
-  position: relative;
-  top: 40px;
-}
-
-.email-input {
-  border-radius: 25px;
-  height: 56px;
-  width: 450px;
-}
-
-.email-input .placeholder {
-  color: red;
-  font-family: "Raleway";
-  font-size: 10px;
-}
-
-.subscribe-button {
-  height: 46px;
-  width: 130px;
-  font-size: 15px;
-  color: white;
-  background-color: #e2574c;
-  border-radius: 25px;
-  position: absolute;
-  top: 6px;
-  right: 4px;
-}
-
-.subscribe-button:hover {
-  color: #b64036;
-}
-
-.footer {
-  margin: 0 auto;
-  background-color: rgb(39, 37, 37);
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer a {
-  color: white;
-}
-
-.footer a:hover {
-  color: orange;
-}
-
-.footer-inner {
-  position: relative;
-  top: 65px;
-  left: 105px;
-}
-
-.address .p {
-  color: #969696;
-}
-
-.footer p {
-  padding: 0px 0px 0px 0px;
-  font-size: 16px;
-  color: white;
-  font-family: "Playfair";
-  text-decoration: none;
-  display: flex;
-}
-
-.social {
-  width: 200px;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  position: relative;
-  bottom: 65px;
-  right: 55px;
-}
-
-.social a:hover {
-  color: orange;
-}
-
-.social a {
-  position: relative;
-  left: 1100px;
-  bottom: 65px;
-  height: 38px;
-  width: 150px;
-  font-size: 16px;
-  color: white;
-  font-family: "Raleway";
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .main-header {
     height: auto;
-    position: relative;
+    /* position: relative;
     right: 90px;
     padding: 0px 0px 25px 20px;
     border: dotted;
     border-width: 0px 0px 1px 0px;
-    display: flex;
+    display: flex; */
   }
 
   .links-container a {
@@ -675,17 +553,17 @@ html {
     display: flex;
     align-items: center;
     padding: 100px 0px 0px 0px;
-    position: relative;
+    /* position: relative;
     left: 4rem;
-    bottom: 0.5rem;
+    bottom: 0.5rem; */
   }
 
   .logo {
     width: 30%;
     height: 100%;
     display: flex;
-    position: relative;
-    bottom: 1rem;
+    /* position: relative;
+    bottom: 1rem; */
   }
 
   .banner {
@@ -705,8 +583,8 @@ html {
   }
 
   .banner h1 {
-    position: relative;
-    top: 25px;
+    /* position: relative;
+    top: 25px; */
   }
 
   .featured {
@@ -762,15 +640,15 @@ html {
   }
 
   .copyright {
-    position: relative;
+    /* position: relative;
     bottom: 65px;
-    left: 85px;
+    left: 85px; */
   }
 
   .social {
-    position: relative;
+    /* position: relative;
     left: 6px;
-    bottom: 85px;
+    bottom: 85px; */
   }
 
   .social a {
@@ -784,40 +662,176 @@ html {
   }
 
   .p1 {
-    position: relative;
-    left: 18px;
+    /* position: relative;
+    left: 18px; */
   }
 
   .p2 {
-    position: relative;
-    left: 2px;
+    /* position: relative;
+    left: 2px; */
   }
 
   .p3 {
-    position: relative;
-    right: 25px;
+    /* position: relative;
+    right: 25px; */
   }
 
   .p4 {
-    position: relative;
-    left: 53px;
+    /* position: relative;
+    left: 53px; */
   }
 
   .p5 {
-    position: relative;
-    left: 35px;
+    /* position: relative;
+    left: 35px; */
   }
 
   .address {
-    position: relative;
+    /* position: relative;
     left: 60px;
-    bottom: 65px;
+    bottom: 65px; */
   }
 
   .link-text {
     display: none;
   }
+}
 
-  @media screen and (max-width: 1300px) {
+@media screen and (min-width: 900px) {
+  .carousel-cell {
+    width: 25%;
   }
+}
+
+.sufu-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25) 0,
+      rgba(0, 0, 0, 0.25)
+    ),
+    url(../images/wave-bkgd.jpg);
+  height: 350px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 0px 10px 0px;
+  padding: 65px 0px 65px 0px;
+  font-family: "Raleway";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center bottom;
+}
+
+.sufu-container h2 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 35px;
+  height: 60px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-paragraph p {
+  width: 650px;
+  height: 75px;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+/* .input-combo {
+  /* display: flex;
+  position: relative;
+  top: 40px;
+} */ 
+
+.email-input {
+  border-radius: 25px;
+  height: 56px;
+  width: 450px;
+}
+
+.email-input .placeholder {
+  color: red;
+  font-family: "Raleway";
+  font-size: 10px;
+}
+
+.subscribe-button {
+  height: 46px;
+  width: 130px;
+  font-size: 15px;
+  color: white;
+  background-color: #e2574c;
+  border-radius: 25px;
+  /* position: absolute;
+  top: 6px;
+  right: 4px; */
+}
+
+.subscribe-button:hover {
+  color: #b64036;
+}
+
+.footer {
+  margin: 0 auto;
+  background-color: rgb(39, 37, 37);
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: orange;
+}
+
+.footer-inner {
+  /* position: relative;
+  top: 65px;
+  left: 105px; */
+}
+
+.address .p {
+  color: #969696;
+}
+
+.footer p {
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  color: white;
+  font-family: "Playfair";
+  text-decoration: none;
+  display: flex;
+}
+
+.social {
+  width: 200px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  /* position: relative;
+  bottom: 65px;
+  right: 55px; */
+}
+
+.social a:hover {
+  color: orange;
+}
+
+.social a {
+  /* position: relative;
+  left: 1100px;
+  bottom: 65px;
+  height: 38px;
+  width: 150px; */
+  font-size: 16px;
+  color: white;
+  font-family: "Raleway";
 }
