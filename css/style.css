@@ -52,26 +52,15 @@ html {
 }
 .cart {
   height: 48px;
-
-
 }
 
 .links-container {
-
   font-size: 0.9rem;
+  margin-bottom: 100px;
+}
+.links-nav {
   display: flex;
-  margin-top: 100px;
-  margin-right: 57px;
-  align-items: flex-end;
-  
- 
- 
 }
-.links-nav li {
-  display: inline;
-
-}
-
 
 .links-container a {
   color: #e2574c;
@@ -83,7 +72,6 @@ html {
   background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
   background-repeat: no-repeat, repeat-x;
   background-position: top center;
-
   background-size: 240px 615px, 60%;
   height: 500px;
   color: white;
@@ -570,7 +558,7 @@ html {
     background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
     background-repeat: no-repeat, repeat-x;
     background-position: top center;
-    height: 400px;
+    height: 500px;
     background-size: 240px 615px, auto;
     color: white;
     text-align: center;
@@ -578,9 +566,9 @@ html {
     font-size: 2.3rem;
   }
 
-  .overlay {
+  /*.overlay {
     height: auto;
-  }
+  }*/
 
   .banner h1 {
     /* position: relative;
@@ -597,8 +585,8 @@ html {
   }
 
   .mens {
-    height: 250px;
     flex-basis: 100%;
+    height: 250px;
   }
 
   .trends {
@@ -746,7 +734,7 @@ html {
   /* display: flex;
   position: relative;
   top: 40px;
-} */ 
+} */
 
 .email-input {
   border-radius: 25px;
