@@ -25,7 +25,6 @@ html {
 
 .container-small {
   max-width: 740px;
-  height: 263px;
   padding: 64px 0px 64px 0px;
   margin: 0 auto;
   text-align: center;
@@ -35,16 +34,16 @@ html {
   display: flex;
   height: 12vh;
   align-items: center;
-  width: 100%;
-  justify-content: space-around;
-  margin-bottom: 40px;
-  border-bottom: 1px dotted gray;
+  width: 92%;
+  justify-content: space-between;
+  /* margin-bottom: 40px;
+  border-bottom: 1px dotted gray; */
 }
 
 .logo {
-  width: 137px;
-  height: 44px;
-  margin-left: 35px;
+  width: 237px;
+  height: 68px;
+  /* margin-left: 35px; */
 }
 
 .cart-wrapper {
@@ -56,10 +55,10 @@ html {
 
 .links-container {
   font-size: 0.9rem;
-  margin-bottom: 100px;
 }
 .links-nav {
   display: flex;
+  margin-right: 114px;
 }
 
 .links-container a {
@@ -72,7 +71,7 @@ html {
   background: url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
   background-repeat: no-repeat, repeat-x;
   background-position: top center;
-  background-size: 240px 615px, 60%;
+  background-size: 240px 615px, auto;
   height: 500px;
   color: white;
 }
@@ -142,7 +141,7 @@ html {
 
 .featured a {
   font-family: "Raleway";
-  font-size: rem;
+  font-size: 2rem;
   text-decoration: none;
   color: white;
 }
@@ -516,15 +515,16 @@ html {
   color: #969696;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .main-header {
     height: auto;
+
     /* position: relative;
     right: 90px;
     padding: 0px 0px 25px 20px;
     border: dotted;
     border-width: 0px 0px 1px 0px;
-    display: flex; */
+    display: flex;  */
   }
 
   .links-container a {
@@ -585,33 +585,33 @@ html {
   }
 
   .mens {
-    flex-basis: 100%;
+    flex-basis: 50%;
     height: 250px;
   }
 
   .trends {
-    flex-basis: 50%;
+    flex-basis: 25%;
     height: 250px;
   }
 
   .glasses {
-    flex-basis: 50%;
+    flex-basis: 25%;
     height: 250px;
   }
 
   .sale {
-    flex-basis: 50%;
+    flex-basis: 25%;
     height: 250px;
   }
 
   .bags {
-    flex-basis: 50%;
+    flex-basis: 25%;
     height: 250px;
   }
 
   .womens {
+    flex-basis: 50%;
     height: 250px;
-    flex-basis: 100%;
   }
 
   .sufu-container p {
