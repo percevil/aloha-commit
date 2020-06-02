@@ -685,12 +685,6 @@ html {
   }
 }
 
-@media screen and (min-width: 900px) {
-  .carousel-cell {
-    width: 25%;
-  }
-}
-
 .sufu-container {
   background-image: linear-gradient(
       180deg,
@@ -711,7 +705,7 @@ html {
   background-position: center bottom;
 }
 
-.sufu-container h2 {
+.sufu-container h3 {
   font-family: "Playfair Display";
   font-style: italic;
   font-size: 35px;
@@ -721,7 +715,7 @@ html {
   justify-content: center;
 }
 
-.signup-paragraph p {
+.sufu-container p {
   width: 650px;
   height: 75px;
   font-size: 16px;
@@ -729,12 +723,11 @@ html {
   text-align: center;
   justify-content: flex-end;
 }
-
-/* .input-combo {
-  /* display: flex;
+.input-combo {
+  display: flex;
+  align-items: center;
   position: relative;
-  top: 40px;
-} */
+}
 
 .email-input {
   border-radius: 25px;
@@ -755,9 +748,8 @@ html {
   color: white;
   background-color: #e2574c;
   border-radius: 25px;
-  /* position: absolute;
-  top: 6px;
-  right: 4px; */
+  position: absolute;
+  right: 6px;
 }
 
 .subscribe-button:hover {
