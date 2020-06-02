@@ -620,69 +620,6 @@ html {
     text-align: center;
     justify-content: flex-end;
   }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .copyright {
-    /* position: relative;
-    bottom: 65px;
-    left: 85px; */
-  }
-
-  .social {
-    /* position: relative;
-    left: 6px;
-    bottom: 85px; */
-  }
-
-  .social a {
-    text-decoration: none;
-    width: 20px;
-    height: 20px;
-    left: 60px;
-    top: 35px;
-    font-size: 14px;
-    display: flex;
-  }
-
-  .p1 {
-    /* position: relative;
-    left: 18px; */
-  }
-
-  .p2 {
-    /* position: relative;
-    left: 2px; */
-  }
-
-  .p3 {
-    /* position: relative;
-    right: 25px; */
-  }
-
-  .p4 {
-    /* position: relative;
-    left: 53px; */
-  }
-
-  .p5 {
-    /* position: relative;
-    left: 35px; */
-  }
-
-  .address {
-    /* position: relative;
-    left: 60px;
-    bottom: 65px; */
-  }
-
-  .link-text {
-    display: none;
-  }
 }
 
 .sufu-container {
@@ -761,21 +698,29 @@ html {
   background-color: rgb(39, 37, 37);
   height: 300px;
   display: flex;
-  justify-content: space-between;
 }
 
 .footer a {
   color: white;
+  text-decoration-line: none;
 }
 
 .footer a:hover {
   color: orange;
 }
 
-.footer-inner {
-  /* position: relative;
-  top: 65px;
-  left: 105px; */
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.copyright {
+  font-size: 28px;
+  align-items: center;
+}
+.info-block {
+  align-content: space-around;
 }
 
 .address .p {
@@ -790,15 +735,9 @@ html {
   text-decoration: none;
   display: flex;
 }
-
 .social {
-  width: 200px;
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
-  /* position: relative;
-  bottom: 65px;
-  right: 55px; */
 }
 
 .social a:hover {
@@ -806,12 +745,7 @@ html {
 }
 
 .social a {
-  /* position: relative;
-  left: 1100px;
-  bottom: 65px;
-  height: 38px;
-  width: 150px; */
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   font-family: "Raleway";
 }
